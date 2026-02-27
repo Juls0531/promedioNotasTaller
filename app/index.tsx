@@ -1,6 +1,6 @@
-import { useState } from "react";
-import { View, Text, TextInput, StyleSheet, FlatList, Modal, Button } from "react-native";
 import { useRouter } from "expo-router";
+import { useState } from "react";
+import { Button, FlatList, Modal, StyleSheet, Text, TextInput, View } from "react-native";
 
 export default function Index() {
   const router = useRouter();
